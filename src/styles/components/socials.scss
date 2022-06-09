@@ -1,0 +1,14 @@
+.socials {
+    .socials__container {
+        @apply flex flex-row justify-between;
+
+        .socials__single {
+            @apply flex flex-col mt-24 w-1/5 items-center;
+    
+            svg {
+                fill: white;
+                @apply w-12 h-12;
+            }
+        }
+    }
+}
