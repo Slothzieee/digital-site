@@ -1,0 +1,23 @@
+.digital-button__wraper {
+    @apply flex flex-row items-center font-digital tracking-widest;
+
+    h2 {
+        @apply ml-4;
+    }
+}
+
+.digital-button {
+    --aug-border-bg: linear-gradient(75deg, rgba(19,11,143,1) 0%, rgba(36,174,198,1) 43%, rgba(0,212,255,1) 76%) !important;
+    --aug-all-height: 6rem !important;
+
+    padding: 0.5rem;
+    background-origin: content-box;
+
+
+    @apply bg-center bg-no-repeat bg-blue-800 bg-contain cursor-pointer; 
+}
+
+.digital-button--right {
+    --aug-border-bg: linear-gradient(150deg, rgba(19,11,143,1) 0%, rgba(36,174,198,1) 43%, rgba(0,212,255,1) 76%) !important;
+    @apply ml-16;
+}

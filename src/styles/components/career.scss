@@ -1,0 +1,40 @@
+.career {
+    @apply tracking-widest;
+
+    .career__companies {
+        @apply flex flex-col mt-12;
+        
+        .career__company__wrapper {
+            @apply w-[20rem] mx-auto my-4 border border-white py-4 px-8;
+
+            &:hover {
+                opacity: 0.8;
+                @apply shadow-2xl cursor-pointer ;
+            }
+        }
+    }
+
+    h2 {
+        @apply mb-1;
+    }
+
+    h3 {
+        @apply text-gray-400 text-xs;
+    }
+
+    h4 {
+        @apply mb-2 text-lg;
+    }
+
+    ul {
+        list-style-type: '-';
+        li {
+            text-shadow: 2px 2px black;
+            @apply text-xs my-2;
+        }
+    }
+
+    p {
+        @apply text-center cursor-pointer;
+    }
+}

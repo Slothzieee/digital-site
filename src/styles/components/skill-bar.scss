@@ -1,0 +1,39 @@
+.skill-bar {
+    @apply relative h-12 mx-4 w-44 ;
+
+    --aug-br2-width: 1rem !important;
+    --aug-br2-height: 3rem !important;
+    --aug-clip-br2: initial !important;
+  
+    .skill-bar__wrapper{
+
+        @apply relative h-full mx-2 z-50 flex flex-row items-center font-digital tracking-widest;
+
+        .skill-bar__image {
+            @apply w-12 h-10 my-auto bg-contain bg-no-repeat bg-center; 
+        }
+
+        .skill-bar__image--js {
+            background-image: url('../../assets/img/js.png')
+        }
+
+        .skill-bar__image--node {
+            background-image: url('../../assets/img/node.png')
+        }
+
+        .skill-bar__image--solidity {
+            background-image: url('../../assets/img/solidity.png')
+        }
+    
+        p {
+            text-shadow: 2px 2px black;
+
+            @apply  text-sm my-auto text-white ;
+        }
+    }
+
+    .skill-bar__overlay {
+        opacity: 0.4;
+        @apply bg-white absolute h-12 w-44;
+    }
+}

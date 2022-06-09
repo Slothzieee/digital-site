@@ -1,0 +1,31 @@
+.hp-bar {
+    --aug-br2-width: 3rem !important;
+    --aug-br2-height: 6rem !important;
+    --aug-clip-br2: initial !important;
+    --aug-clip-bl2: initial !important;
+    --aug-border-bg: linear-gradient(160deg, rgba(19,11,143,1) 0%, rgba(36,174,198,1) 43%, rgba(0,212,255,1) 76%) !important;
+
+    @apply px-8 py-2 w-[30rem] h-24 tracking-widest	font-bold drop-shadow-lg;
+
+
+  
+
+    .hp-bar__wrapper {
+        @apply flex flex-row items-center;
+
+        .hp-bar__mc-details{
+            @apply w-3/5 ml-4 mb-4;
+            .hp-bar__mc-hp {
+                background: linear-gradient(75deg, rgba(240,160,41,1) 6%, rgba(235,225,10,1) 46%, rgba(0,255,8,1) 76%);
+                @apply h-4 w-full border border-white;
+            }
+        }
+
+     
+    
+        .hp-bar__mc-image {
+            background-image: url('../../../src/assets/img/me.png');
+            @apply w-24 h-24 bg-no-repeat bg-contain ;
+        }
+    }
+}

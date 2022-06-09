@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './components/button.scss';
+@import './components/side-menu.scss';
+@import './components/hp-bar.scss';
+@import './components/header.scss';
+@import './components/screen.scss';
+@import './components/hud-settings.scss';
+@import './components/skill-bar.scss';
+@import './components/dialog-box.scss';
+@import './components/career.scss';

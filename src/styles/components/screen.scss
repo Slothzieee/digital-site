@@ -1,0 +1,14 @@
+.screen {
+    @apply bg-main h-[100vh] text-white relative;
+
+
+    .screen-overlay {
+        background-image: url('../../assets/img/honeycomb.jpg');
+        opacity: 0.2;
+        @apply absolute w-full h-[100vh];
+    }
+
+    .screen__main {
+        @apply flex flex-row  z-50 relative mt-32;
+    }
+}
